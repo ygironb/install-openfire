@@ -16,16 +16,16 @@ echo "[http]" >> ~/.gitconfig
 echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 ```
 
-### 🔽 1.  Clone el repositorio para descargar el script en su servidor, copie y pegue en la terminal
+### 1️⃣.  Clone el repositorio para descargar el script en su servidor, copie y pegue en la terminal
 
 ``` sh
    git clone https://github.com/ygironb/install-openfire.git
 ```
-### 🔐 2.  Permisos de ejecución
+### 2️⃣.  Permisos de ejecución
 ``` sh
    chmod +x install_openfire+ssl.sh
 ```
-### 🔄 3.  Ejecutarlo  
+### 3️⃣.  Ejecutarlo  
 
 ``` sh
   ./install_openfire+ssl.sh
