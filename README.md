@@ -31,4 +31,5 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
   ./install_openfire+ssl.sh
 ```
 
-![Instalación Terminada]https://github.com/ygironb/install-openfire/blob/main/imgs/01-Instalaci%C3%B3n%20Terminada.png
+## Una vez completada la instalación le mostrará una salida como a siguiente
+![Instalación Terminada](./imgs/01-Instalaci%C3%B3n%20Terminada.png)
