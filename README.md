@@ -31,8 +31,8 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
   ./install_openfire+ssl.sh
 ```
 
-## Una vez completada la instalación le mostrará la salida siguiente
+### Una vez completada la instalación le mostrará la salida siguiente
 ![Instalación Terminada](./imgs/01-Instalaci%C3%B3n%20Terminada.png)
 
-## Puede abrir poniendo la URL con **_"https"_** sin el puerto **_"9090"_**
+### Puede abrir poniendo la URL con **_"https"_** sin el puerto **_"9090"_**
 ![Abriendo Consola Web](./imgs/02-Abrir%20la%20web.png)
