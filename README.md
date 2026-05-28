@@ -48,3 +48,6 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 
 ### Usuario para administrar la consola, se debió aber creado en el Directorio Activo  
 ![UsuarioAdmin](./imgs/07-Usuario%20openfire_admin%20consola.png)
+
+### Configuración completa  
+![ConfiguracionCompleta](.imgs/08-Configuraci%C3%B3n%20Completa.png
