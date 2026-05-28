@@ -34,5 +34,5 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 ## Una vez completada la instalación le mostrará la salida siguiente
 ![Instalación Terminada](./imgs/01-Instalaci%C3%B3n%20Terminada.png)
 
-## Como muestra la imagen, se abre poniendo la URL con **_"https"_** sin el puerto **_"9090"_**
+## Puede abrir poniendo la URL con **_"https"_** sin el puerto **_"9090"_**
 ![Abriendo Consola Web](./imgs/02-Abrir%20la%20web.png)
