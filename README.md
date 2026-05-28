@@ -44,7 +44,7 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 ![BD](./imgs/04-BD.png)
 
 ### Conexión válida través del puerto 636 si lo tienes configurados, sino usa el 389  
-![ConexiónVálida](./imgs/05-Conexión válida.png)
+![ConexiónVálida](./imgs/06-Mapeo%20de%20Grupo.png)
 
 ### Usuario para administrar la consola, se debió aber creado en el Directorio Activo  
 ![UsuarioAdmin](./imgs/07-Usuario%20openfire_admin%20consola.png)
