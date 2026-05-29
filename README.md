@@ -63,3 +63,20 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 
 ### Configuración completa  
 ![ConfiguracionCompleta](./imgs/08-Configuraci%C3%B3n%20Completa.png)
+
+### Comandos para crear los Registrpos SRV en el AD
+
+``` sh
+#### PARA SAMBA 4:
+samba-tool dns add localhost faster.local.cu pubsub CNAME 'chat.faster.local.cu' -U 'administrator'%'Tu-P4ssw0rd'
+samba-tool dns add localhost faster.local.cu _xmpp-client._tcp SRV 'chat.faster.local.cu. 5222 0 5' -U 'administrator'%'Tu-P4ssw0rd'
+samba-tool dns add localhost faster.local.cu _xmpp-server._tcp SRV 'chat.faster.local.cu. 5269 0 5' -U 'administrator'%'Tu-P4ssw0rd'
+samba-tool dns add localhost faster.local.cu _xmpps-client._tcp SRV 'chat.faster.local.cu. 5223 0 5' -U 'administrator'%'Tu-P4ssw0rd'
+samba-tool dns add localhost faster.local.cu _xmpps-server._tcp SRV 'chat.faster.local.cu. 5270 0 5' -U 'administrator'%'Tu-P4ssw0rd'
+
+#### PARA WINDOWS SERVER (PowerShell):
+Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpp-client._tcp" -DomainName "chat.faster.local.cu." -Port 5222 -Priority 0 -Weight 5
+Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpp-server._tcp" -DomainName "chat.faster.local.cu." -Port 5269 -Priority 0 -Weight 5
+Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpps-client._tcp" -DomainName "chat.faster.local.cu." -Port 5223 -Priority 0 -Weight 5
+Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpps-server._tcp" -DomainName "chat.faster.local.cu." -Port 5270 -Priority 0 -Weight 5
+```
