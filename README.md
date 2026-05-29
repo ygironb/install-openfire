@@ -8,6 +8,7 @@ Gestión sencilla: Panel de control web intuitivo para gestionar usuarios, salas
 * Seguridad y Empresa: Ofrece cifrado TLS/SSL para las comunicaciones e integración con LDAP / Active Directory para sincronizar usuarios corporativos .
 * Alto rendimiento: Capaz de soportar miles de usuarios concurrentes en un solo servidor, ideal para empresas o proyectos educativos .
 
+
 ## 🛠️ Poner el servicio de Openfire en funcionamiento
 
 ### ⚠️ Si su servidor está detrás de un proxy corporativo, antes de descargar el script tiene que exportar las variables para que pueda salir a internet. Si lo usas con autenticación utilice el siguiente formato reajustando los datos de su infraestructura:
