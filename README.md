@@ -1,4 +1,5 @@
-## Openfire es un servidor de mensajería y colaboración en tiempo real de código abierto (Apache 2.0) basado en el protocolo estándar XMPP (Jabber) . Está escrito en Java, lo que lo hace multiplataforma, y destaca por su facilidad de instalación y su potente interfaz de administración web .
+# Openfire 
+Es un servidor de mensajería y colaboración en tiempo real de código abierto (Apache 2.0) basado en el protocolo estándar XMPP (Jabber) . Está escrito en Java, lo que lo hace multiplataforma, y destaca por su facilidad de instalación y su potente interfaz de administración web .
 
 ## Características Principales
 Gestión sencilla: Panel de control web intuitivo para gestionar usuarios, salas y configuraciones sin necesidad de editar archivos manualmente .
