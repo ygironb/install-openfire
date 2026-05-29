@@ -34,13 +34,13 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 ### Una vez completada la instalación le mostrará la salida siguiente
 ![InstalaciónTerminada](./imgs/01-Instalaci%C3%B3n%20Terminada.png)
 
-### Puede abrir poniendo la URL con **_"https"_** sin el puerto **_"9090"_**
+### Puede abrir poniendo la web con **_"https"_** sin el puerto **_"9090"_**
 ![AbriendoConsola Web](./imgs/02-Abrir%20la%20web.png)
 
-### Opciones para la sincronización de Openfire con el Directorio Activo
+### Opciones para la sincronización de Openfire con el Directorio Activo (AD)
 ![DirectorioActivo](./imgs/03-Directorio-Activo.png)
 
-### Escogiendo la Base de Datosm usuario y contraseña de Openfire 
+### Poniendo la DB, usuario y contraseña de Openfire 
 ![BD](./imgs/04-BD.png)
 
 ### Conexión válida con el AD través del puerto 636 si lo tienes configurados, sino usa el 389  
