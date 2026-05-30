@@ -64,7 +64,7 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
 ### > Configuración completa  
 ![ConfiguracionCompleta](./imgs/08-Configuraci%C3%B3n%20Completa.png)
 
-### Comandos para crear los Registrpos SRV en el AD
+### > Comandos para crear los Registrpos SRV en el AD
 
 ``` sh
 #### PARA SAMBA 4:
