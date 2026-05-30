@@ -43,25 +43,25 @@ echo "    proxy = http://proxy.cualquiera.cu:3128/" >> ~/.gitconfig
   ./install_openfire+ssl.sh
 ```
 
-### Una vez completada la instalación le mostrará la salida siguiente
+### > Una vez completada la instalación le mostrará la salida siguiente
 ![InstalaciónTerminada](./imgs/01-Instalaci%C3%B3n%20Terminada.png)
 
-### Puede abrir la Web poniendo el protocolo **_"https"_** y sin el puerto **_"9090"_**
+### > Puede abrir la Web poniendo el protocolo **_"https"_** y sin el puerto **_"9090"_**
 ![AbriendoConsola Web](./imgs/02-Abrir%20la%20web.png)
 
-### Opciones para la sincronización de Openfire con el Directorio Activo (AD)
+### > Opciones para la sincronización de Openfire con el Directorio Activo (AD)
 ![DirectorioActivo](./imgs/03-Directorio-Activo.png)
 
-### Poniendo la DB, usuario y contraseña de Openfire 
+### > Poniendo la DB, usuario y contraseña de Openfire 
 ![BD](./imgs/04-BD.png)
 
-### Conexión válida con el AD través de LDAPS:636 si lo tienes configurados, sino usa LDAP:389  
+### > Conexión válida con el AD través de LDAPS:636 si lo tienes configurados, sino usa LDAP:389  
 ![ConexiónVálida](./imgs/05-Conexi%C3%B3n%20v%C3%A1lida.png)
 
-### Usuario para administrar la consola, se debió haber creado previamente en el AD  
+### > Usuario para administrar la consola, se debió haber creado previamente en el AD  
 ![UsuarioAdmin](./imgs/07-Usuario%20openfire_admin%20consola.png)
 
-### Configuración completa  
+### > Configuración completa  
 ![ConfiguracionCompleta](./imgs/08-Configuraci%C3%B3n%20Completa.png)
 
 ### Comandos para crear los Registrpos SRV en el AD
