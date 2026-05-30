@@ -81,3 +81,8 @@ Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpp-server
 Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpps-client._tcp" -DomainName "chat.faster.local.cu." -Port 5223 -Priority 0 -Weight 5
 Add-DnsServerResourceRecord -Srv -ZoneName "faster.local.cu" -Name "_xmpps-server._tcp" -DomainName "chat.faster.local.cu." -Port 5270 -Priority 0 -Weight 5
 ```
+
+
+<p align="center">
+  Contántame por Telegram: https://t.me/ygiron
+</p>
